@@ -1,0 +1,20 @@
+{ "rentals": [{
+    "owner": "Will Smith",
+    "city": "San Francisco"
+  }, {
+    "owner": "John Davidson",
+    "city": "Seattle"
+  }, {
+    "owner": "Shane Watson",
+    "city": "Portland"
+  }],
+  "reviews": [{
+    "author": "Will Smith",
+    "rating": 4,
+    "content": "Good Product"
+  }, {
+    "author": "John Davidson",
+    "rating": 5,
+    "content": "Nice Product"
+  }]
+}
