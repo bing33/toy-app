@@ -1,2 +1,8 @@
 <h2>{{model.blog.title}}</h2>
 <p>{{model.blog.content}}</p>
+
+<h2>Comments</h2>
+<form {{action "create" on="submit"}}>
+    {{input value=queryParam}}
+    <input type="submit" value="Submit"/>
+</form>

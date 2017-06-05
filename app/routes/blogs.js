@@ -7,8 +7,6 @@ export default Ember.Route.extend({
         //The RSVP.hash methos is built with RSVP.js library that allows to load multiple JavaScript promises
         return Ember.RSVP.hash({
             //Find the records for the given type and returns all the records of this type present in the store
-            // rentals: this.store.findAll('rental'),
-            // reviews: this.store.findAll('review')
             blogs: this.store.findAll('blogs')
         });
     }

@@ -7,10 +7,13 @@ const Router = Ember.Router.extend( {
 } );
 
 Router.map( function(){
-    this.route( 'home' );
-    this.route( 'about' );
-    this.route( 'blogs');
-    this.route( 'blog-post', { path: '/blog-post/:id' } );
+  this.route( 'home' );
+  this.route( 'about' );
+  this.route( 'blogs');
+  this.route( 'blog-post', { path: '/blog-post/:id' } );
+  this.route('file');
+  this.route('footer');
+  this.route('header');
 } );
 
 export default Router;
